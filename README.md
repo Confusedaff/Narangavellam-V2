@@ -1,4 +1,5 @@
-![freepik__design-an-svg-illustration-of-narangavellam-in-a-h__73946](https://github.com/user-attachments/assets/66ac024d-135a-44ba-8231-8f4c5ffa8025)
+
+![narangavellam_resized](https://github.com/user-attachments/assets/1c6f06a2-497b-4fd3-bd87-809d54d4308c)
 
 # Narangavellam V2 🎯
 
