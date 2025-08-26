@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "676095049215",
+    "project_id": "narangavellam-dev-c8eb7",
+    "storage_bucket": "narangavellam-dev-c8eb7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:676095049215:android:3423f807f30ab22a29bbca",
+        "android_client_info": {
+          "package_name": "com.narangavellam.narangavellam.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "676095049215-bk2mjotdrmn9pq4mnn5fmcll8lu3ecmp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCb2V80Las1rYiJOUZjPrYYHzZ6E95WtBs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "676095049215-bk2mjotdrmn9pq4mnn5fmcll8lu3ecmp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

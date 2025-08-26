@@ -1,0 +1,39 @@
+name: database_client
+description: A Very Good Project created by Very Good CLI.
+version: 0.1.0+1
+publish_to: none
+
+environment:
+  sdk: ^3.5.0
+  flutter: ^3.24.0
+
+assets:
+    - assets/firebase-service-account.json
+
+dependencies:
+  crypto: ^3.0.3
+  jose: ^0.3.2
+  chats_repository:
+    path: ../chats_repository
+  flutter:
+    sdk: flutter
+  jiffy: ^6.4.3
+  powersync_repository:
+    path: ../powersync_repository
+  shared:
+    path: ../shared
+  user_repository:
+    path: ../user_repository
+  insta_blocks:
+    path: ../insta_blocks
+  env:
+    path: ../env
+  dio: ^5.8.0+1
+  googleapis_auth: ^2.0.0
+  http: ^1.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mocktail: ^1.0.4
+  very_good_analysis: ^6.0.0
