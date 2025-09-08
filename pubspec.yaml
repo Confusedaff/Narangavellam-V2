@@ -120,7 +120,7 @@ dev_dependencies:
   envied_generator: ^1.1.1
   flutter_test:
     sdk: flutter
-  json_serializable: ^6.9.5
+  json_serializable: ^6.11.1
   slang_build_runner: ^4.7.0
   very_good_analysis: ^6.0.0
 
