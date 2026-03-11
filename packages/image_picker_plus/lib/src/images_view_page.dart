@@ -870,6 +870,7 @@ class _ImagesViewPageState extends State<ImagesViewPage>
     );
   }
 
+  @override
   bool get wantKeepAlive => widget.wantKeepAlive;
 }
 

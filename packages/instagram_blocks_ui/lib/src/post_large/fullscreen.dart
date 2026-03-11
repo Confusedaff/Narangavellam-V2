@@ -6,8 +6,7 @@ import 'package:shared/shared.dart';
 
 class FullScreenZoomableMediaViewer extends StatelessWidget {
   const FullScreenZoomableMediaViewer({
-    super.key,
-    required this.media,
+    required this.media, super.key,
     this.initialIndex = 0,
   });
 
@@ -16,7 +15,7 @@ class FullScreenZoomableMediaViewer extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    PageController pageController = PageController(initialPage: initialIndex);
+    var pageController = PageController(initialPage: initialIndex);
 
     return Scaffold(
       backgroundColor: Colors.black.withOpacity(0.95),
@@ -52,7 +51,6 @@ class FullScreenZoomableMediaViewer extends StatelessWidget {
             return InteractiveViewer(
               maxScale: 4,
               minScale: 1,
-              panEnabled: true,
               child: Center(
                 child: Image.network(
                   currentMedia.url,

@@ -1,6 +1,4 @@
 import 'package:insta_blocks/insta_blocks.dart';
-import 'package:insta_blocks/src/post_large_block.dart';
-import 'package:insta_blocks/src/unknown_block.dart';
 import 'package:json_annotation/json_annotation.dart';
 import 'package:meta/meta.dart';
 

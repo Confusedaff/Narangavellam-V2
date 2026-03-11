@@ -7,7 +7,6 @@ import 'package:inview_notifier_list/inview_notifier_list.dart';
 import 'package:narangavellam/app/user_profile/bloc/user_profile_bloc.dart';
 import 'package:narangavellam/feed/post/post.dart';
 import 'package:narangavellam/l10n/l10n.dart';
-import 'package:scrollable_positioned_list/scrollable_positioned_list.dart';
 import 'package:shared/shared.dart';
 
 class UserProfilePosts extends StatefulWidget {

@@ -1,5 +1,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:narangavellam/chats/chat/chat.dart' show ChatMessagesListView;
+import 'package:narangavellam/chats/chat/view/chat_page.dart' show ChatMessagesListView;
 import 'package:narangavellam/chats/chat/widgets/message_date_time_separator.dart';
 import 'package:scrollable_positioned_list/scrollable_positioned_list.dart';
 import 'package:shared/shared.dart';

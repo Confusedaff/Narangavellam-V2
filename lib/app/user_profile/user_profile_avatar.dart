@@ -154,7 +154,6 @@ class _UserProfileAvatarState extends State<UserProfileAvatar> {
     file.absolute.path,
     targetPath,
     quality: 85,
-    format: CompressFormat.jpeg,
   );
 
   return compressedXFile != null ? File(compressedXFile.path) : null;
@@ -162,7 +161,7 @@ class _UserProfileAvatarState extends State<UserProfileAvatar> {
 
   @override
   Widget build(BuildContext context) {
-    final radius = (this.widget.radius) ??
+    final radius = (widget.radius) ??
         (widget.isLarge
             ? 42.0
             : widget.withAdaptiveBorder

@@ -1,7 +1,6 @@
 import 'package:app_ui/app_ui.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:narangavellam/feed/feed.dart';
 import 'package:narangavellam/feed/post/video/widgets/video_player_inherited_widget.dart';
 import 'package:narangavellam/l10n/l10n.dart';
 

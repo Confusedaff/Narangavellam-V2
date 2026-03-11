@@ -7,7 +7,6 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:instagram_blocks_ui/instagram_blocks_ui.dart';
-import 'package:instagram_blocks_ui/src/attachments/widgets/thumbnail/thumbnail.dart';
 import 'package:instagram_blocks_ui/widget/octo_blur_placeholder.dart';
 import 'package:inview_notifier_list/inview_notifier_list.dart';
 import 'package:octo_image/octo_image.dart';

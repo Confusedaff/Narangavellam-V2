@@ -46,7 +46,7 @@ class _EmailFormFieldState extends State<EmailFormField> {
     final isLoading = context.select((SignUpCubit cubit)
                  => cubit.state.submissionStatus.isLoading,);
     final emailError = context.select((SignUpCubit cubit)
-                 => cubit.state.email.errorMessage);
+                 => cubit.state.email.errorMessage,);
 
     return AppTextField(
       filled: true,

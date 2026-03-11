@@ -47,7 +47,7 @@ class AuthView extends StatelessWidget {
           child: child,
         );
       },
-      child: showLogin ? const LoginPage() : const  SignUpPage()
+      child: showLogin ? const LoginPage() : const  SignUpPage(),
     );
   }
 }

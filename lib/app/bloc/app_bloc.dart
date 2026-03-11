@@ -13,8 +13,7 @@ class AppBloc extends Bloc<AppEvent, AppState> {
   AppBloc({
     required User user,
     required UserRepository userRepository, 
-    required NotificationsRepository notificationRepository,
-    required PostsRepository postsRepository,
+    required NotificationsRepository notificationRepository, required PostsRepository postsRepository,
   })  : _userRepository = userRepository,
         _notificationsRepository = notificationRepository,
         super(

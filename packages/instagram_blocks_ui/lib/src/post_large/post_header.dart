@@ -4,7 +4,6 @@ import 'package:app_ui/app_ui.dart';
 import 'package:flutter/material.dart';
 import 'package:insta_blocks/insta_blocks.dart';
 import 'package:instagram_blocks_ui/instagram_blocks_ui.dart';
-import 'package:instagram_blocks_ui/src/post_large/post_large.dart';
 import 'package:instagram_blocks_ui/user_profile/user_profile_avatar.dart';
 import 'package:shared/shared.dart';
 

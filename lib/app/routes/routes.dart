@@ -186,7 +186,7 @@ GoRouter router(AppBloc appBloc) {
                 );
               },
             ),
-          ]),
+          ],),
           StatefulShellBranch(
             routes: [
               GoRoute(
@@ -227,7 +227,7 @@ GoRouter router(AppBloc appBloc) {
               path: '/create_media',
               redirect: (context, state) => null,
             ),
-          ]),
+          ],),
           StatefulShellBranch(routes: [
             GoRoute(
               path: '/reels',
@@ -245,7 +245,7 @@ GoRouter router(AppBloc appBloc) {
                 );
               },
             ),
-          ]),
+          ],),
           StatefulShellBranch(
             routes: [
               GoRoute(
