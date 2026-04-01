@@ -55,7 +55,7 @@ dependencies:
   hexcolor: ^3.0.1
   hydrated_bloc: ^9.1.5
   image_cropper: ^9.1.0
-  image_picker: ^1.1.2
+  image_picker: ^1.2.0
   image_picker_plus:
     path: packages/image_picker_plus
   insta_blocks:
